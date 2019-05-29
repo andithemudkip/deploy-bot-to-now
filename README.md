@@ -1,7 +1,3 @@
-
-
-[TOC]
-
 # Deploying Facebook bots to Now
 
 
