@@ -220,7 +220,7 @@ Go back to Zeit, paste your API Token, and click "Connect".
 
 In the bottom-left side we need to select our "rhymebot" project, then, just click on the "Create a new cron job" button.
 
-Give the cron job a name so that you remember what it does, I'll name it "Rhymebot Post"; <br/>In the "Cron path" input type "index.js" <br/>In the "Post data" input we'll type `secret=your_secret` <br/>And, finally, in the "Cron job execution time", we'll type `0 * * * *`, which means it will post once every hour.
+Give the cron job a name so that you remember what it does, I'll name it "Rhymebot Post"; <br/>In the "Cron path" input type `index.js/?secret=your_secret` <br/>And, finally, in the "Cron job execution time", we'll type `0 * * * *`, which means it will post once every hour.
 
 And then click on "Create job".
 
