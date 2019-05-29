@@ -1,0 +1,11 @@
+{
+    "name": "rhymebot",
+    "version": 2,
+    "builds": [
+        { "src": "*.js", "use": "@now/node" }
+    ],
+    "env": {
+        "FB_TOKEN": "@rhyme-fb-token",
+        "REQ_SECRET": "@rhyme-req-secret"
+    }
+}
